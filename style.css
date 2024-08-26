@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #8b0000;
+    /* background-color: #977575; */
+     background: url('ak2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #3aeb0e;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #310069;
+}
+
+.skills-container, .portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill, .portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    transition: transform 0.3s;
+}
+
+.skill:hover, .portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+#about p{
+    color: #9ab1cf;
+}
+#contact p{
+    color: #aebcce;
+}
+#contact p a{
+    color: #1ae91a;
+}
+.edit{
+    display: flex;
+}
+.edit1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    margin-right: 200px;
+
+}
+.edit2 img{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 350px;
+    margin-right: 100px;
+    border-radius: 50px;
+}
+.contact-info p{
+    text-align:center;
+}
